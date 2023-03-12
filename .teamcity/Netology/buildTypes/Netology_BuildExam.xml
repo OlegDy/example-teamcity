@@ -3,6 +3,9 @@
   <name>Build exam</name>
   <description />
   <settings>
+    <options>
+      <option name="artifactRules" value="target/*.jar" />
+    </options>
     <parameters />
     <build-runners>
       <runner id="RUNNER_3" name="clean deploy" type="Maven2">
